@@ -1,0 +1,24 @@
+{
+  "name": "product-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "Frontend Mentor Product Preview Card",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/lib/input.css -o ./src/dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeyker-Dev/Product-Preview-Card.git"
+  },
+  "author": "Jeyker-Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeyker-Dev/Product-Preview-Card/issues"
+  },
+  "homepage": "https://github.com/Jeyker-Dev/Product-Preview-Card#readme",
+  "devDependencies": {
+    "daisyui": "^4.12.10",
+    "tailwindcss": "^3.4.12",
+    "tailwindcss-kit": "^1.2.3"
+  }
+}
