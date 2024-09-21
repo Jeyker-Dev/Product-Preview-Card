@@ -9,8 +9,36 @@
   
   <title>Frontend Mentor | Product preview card component</title>
 </head>
-<body>
+<body class="bg-purple-100 min-h-screen">
 
+  <!--  Main Content  -->
+  <div class="flex justify-center items-start min-h-screen">
+    <main class="w-11/12 md:w-7/12 xl:w-5/12 2xl:w-4/12 bg-white grid grid-cols-1 md:grid-cols-2 rounded-md mt-10 md:mt-24">
 
+        <img src="./images/image-product-desktop.jpg" alt="Image Product" class="w-full object-cover object-center h-64 md:h-96 xl:h-80 rounded">
+
+        <div class="w-10/12 md:w-8/12 ml-6">
+          <h3 class="font-montserrat text-sm md:text-xs text-gray-400 font-bold mt-5 mb-3">Perfume</h3>
+
+          <h2 class="text-3xl md:text-2xl text-black font-bold font-fraunces">
+            Grabielle Essence Eau Da Parfum
+          </h2>
+
+          <p class="text-sm md:text-xs font-montserrat font-normal text-gray-600 mt-2">
+            A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+
+          <p class="flex items-center text-3xl text-green-600 font-bold font-fraunces my-2">
+            $149.99 <span class="line-through text-xs ml-4 text-gray-400">$169.99</span>
+          </p>
+
+          <button class="flex items-center justify-center bg-green-600 hover:bg-green-700 active:bg-green-700 text-white rounded-md w-full md:w-10/12 xl:w-11/12 mx-auto py-2 md:py-1 mb-4 text-center">
+            <img src="./images/icon-cart.svg" alt="Image Icon Cart" class="w-4 h-4 text-white mr-2">
+            Add To Cart
+          </button>
+        </div>
+    </main>
+  </div>
+  <!--  Here End Main Content  -->
 </body>
 </html>
